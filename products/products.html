@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Boba Boba</title>
+    <link rel="stylesheet" href="products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <div class="row">
+                <div class="col">
+                    <img id="logo-pic" class="float-start img-fluid" src="../pics/BOBA.svg">
+                </div>
+                <div class="col" >
+                    <nav>                        
+                        <button id="menu-button" class="float-end">
+                            <img id="menu-pic" src="../pics/menu.svg" class="float-end img-fluid">
+                            <img id="menu-pic2" src="../pics/menu2.svg" class="float-end img-fluid">
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>    
+    
+    <main>
+        <h1 id="title">Boba Essentials</h1>
+        <div id="product-container" class="grid-container"></div>
+
+        <h1 id="title2">Your Cart</h1>
+        <div id="cart-container" class="cart-container"></div>
+        <div class="check-out">
+            <h3 id="cart-total">Total: 0.00 SEK</h3>
+            <button id="checkout-button">Check Out</button>
+        </div>
+    </main>
+
+    <section>
+        <img id="background-pic" src="../pics/background.svg">
+
+        <div class="button-container text-center">
+            <button id="home-button" class="mx-auto" onclick="window.location.href='../start/start.html'"></button>
+            <img id="home-txt" src="../pics/hometxt.svg" class="img-fluid mx-auto">                         
+            <img id="home-dark" src="../pics/homedark.svg" class="img-fluid mx-auto">
+        </div>
+
+        <div class="button-container text-center">
+            <button id="aboutus-button" class="mx-auto" onclick="window.location.href='../aboutus/aboutus.html'"></button>   
+            <img src="../pics/aboutustxt.svg" id="aboutus-txt" class="img-fluid mx-auto">                                    
+            <img src="../pics/aboutusdark.svg" id="aboutus-dark" class="img-fluid mx-auto">
+        </div>
+
+        <div class="button-container text-center">
+            <button id="products-button" class="mx-auto" onclick="window.location.href='products.html'"> </button> 
+            <img src="../pics/productstxt.svg" id="products-txt" class="img-fluid mx-auto">                       
+            <img src="../pics/productsdark.svg" id="products-dark" class="img-fluid mx-auto">
+        </div>        
+    </section>
+
+    <script src="../start/start.js"></script>
+    <script src="site.js"></script>
+</body>
+</html>

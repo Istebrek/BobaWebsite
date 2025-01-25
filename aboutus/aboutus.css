@@ -16,9 +16,47 @@ header {
     background-color: #efecea;
     padding: 1%;
 }
+#p-span {
+    font-weight: bold;
+    line-height: 3;
+}
 
+#p-id {
+    text-align: left;
+    line-height: 1;
+}
 
+#p-id2 {
+    text-align: right;
+    line-height: 1;
+}
+    
+}
+p{
+    font-family: serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.7;
+    letter-spacing: 1.2px;
+}
 
+#title {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;    
+    letter-spacing: 4px;
+}
+
+.aboutus-row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #menu-button {
     width: 50px;
@@ -81,7 +119,7 @@ header {
     width: 150px;
     height: 10vh;   
     z-index: 101;
-    margin-top: -30%;
+    margin-top: -100%;
 }
 
 #aboutus-button {
